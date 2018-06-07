@@ -1,0 +1,2023 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                //2017
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/tableLayout2017"
+                    android:layout_margin="10dp"
+                    android:visibility="gone"
+                    android:stretchColumns="1,2">
+
+                    <TableRow>
+                        <TextView
+                            android:text="4학년 1학기 (17학번)        "
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                            />
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:text="과목"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#3c3f41"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"/>
+                        <TextView
+                            android:text="학점"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#3c3f41"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"
+                            />
+                        <TextView
+                            android:text="수강"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#3c3f41"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"
+                            />
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:text="데이터마이닝"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <TextView
+                            android:text="3"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <CheckBox
+                            android:id="@+id/chk2017_1"
+                            android:gravity="center"
+                            android:text="미완"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_height="25dp"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:text="멀티미디어"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <TextView
+                            android:text="3"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <CheckBox
+                            android:id="@+id/chk2017_2"
+                            android:gravity="center"
+                            android:text="미완"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_height="25dp"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:text="기업가정신"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <TextView
+                            android:text="3"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <CheckBox
+                            android:id="@+id/chk2017_3"
+                            android:gravity="center"
+                            android:text="미완"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_height="25dp"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:text="소프트웨어신기술특론"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <TextView
+                            android:text="3"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <CheckBox
+                            android:id="@+id/chk2017_4"
+                            android:gravity="center"
+                            android:text="미완"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_height="25dp"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:text="졸업작품 3"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <TextView
+                            android:text="1"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <CheckBox
+                            android:id="@+id/chk2017_5"
+                            android:gravity="center"
+                            android:text="미완"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_height="25dp"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:text="현장실습"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <TextView
+                            android:text="1"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <CheckBox
+                            android:id="@+id/chk2017_6"
+                            android:gravity="center"
+                            android:text="미완"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_height="25dp"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:text="                 "
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                            />
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:text="4학년 2학기 (17학번)        "
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                            />
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:text="과목"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#3c3f41"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"/>
+                        <TextView
+                            android:text="학점"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#3c3f41"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"
+                            />
+                        <TextView
+                            android:text="수강"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#3c3f41"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"
+                            />
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:text="컴퓨터보안"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#f0791b"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <TextView
+                            android:text="3"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#f0791b"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <CheckBox
+                            android:id="@+id/chk2017_7"
+                            android:gravity="center"
+                            android:text="미완"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:background="#f0791b"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_height="25dp"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:text="HCI"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#f0791b"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <TextView
+                            android:text="3"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#f0791b"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <CheckBox
+                            android:id="@+id/chk2017_8"
+                            android:gravity="center"
+                            android:text="미완"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:background="#f0791b"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_height="25dp"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:text="기술경영"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#f0791b"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <TextView
+                            android:text="3"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#f0791b"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <CheckBox
+                            android:id="@+id/chk2017_9"
+                            android:gravity="center"
+                            android:text="미완"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:background="#f0791b"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_height="25dp"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:text="                 "
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                            />
+                    </TableRow>
+
+                    <TableRow>
+                        <Button
+                            android:text="업데이트"
+                            android:id="@+id/button2017"
+                            android:layout_span="3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="#fcfcfc"
+                            android:backgroundTint="#3c3f41"
+                            android:textStyle="bold"/>
+                    </TableRow>
+                </TableLayout>
+
+                //2016
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/tableLayout2016"
+                    android:layout_margin="10dp"
+                    android:visibility="gone"
+                    android:stretchColumns="1,2">
+
+                    <TableRow>
+                        <TextView
+                            android:text="4학년 1학기 (16학번)        "
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                            />
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:text="과목"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#3c3f41"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"/>
+                        <TextView
+                            android:text="학점"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#3c3f41"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"
+                            />
+                        <TextView
+                            android:text="수강"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#3c3f41"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"
+                            />
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:text="데이터마이닝"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <TextView
+                            android:text="3"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <CheckBox
+                            android:id="@+id/chk2016_1"
+                            android:gravity="center"
+                            android:text="미완"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_height="25dp"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:text="멀티미디어"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <TextView
+                            android:text="3"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <CheckBox
+                            android:id="@+id/chk2016_2"
+                            android:gravity="center"
+                            android:text="미완"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_height="25dp"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:text="기업가정신"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <TextView
+                            android:text="3"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <CheckBox
+                            android:id="@+id/chk2016_3"
+                            android:gravity="center"
+                            android:text="미완"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_height="25dp"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:text="소프트웨어신기술특론"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <TextView
+                            android:text="3"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <CheckBox
+                            android:id="@+id/chk2016_4"
+                            android:gravity="center"
+                            android:text="미완"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_height="25dp"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:text="졸업작품 3"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <TextView
+                            android:text="1"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <CheckBox
+                            android:id="@+id/chk2016_5"
+                            android:gravity="center"
+                            android:text="미완"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_height="25dp"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:text="현장실습"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <TextView
+                            android:text="1"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <CheckBox
+                            android:id="@+id/chk2016_6"
+                            android:gravity="center"
+                            android:text="미완"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_height="25dp"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:text="                 "
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                            />
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:text="4학년 2학기 (16학번)        "
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                            />
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:text="과목"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#3c3f41"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"/>
+                        <TextView
+                            android:text="학점"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#3c3f41"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"
+                            />
+                        <TextView
+                            android:text="수강"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#3c3f41"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"
+                            />
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:text="컴퓨터보안"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#f0791b"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <TextView
+                            android:text="3"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#f0791b"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <CheckBox
+                            android:id="@+id/chk2016_7"
+                            android:gravity="center"
+                            android:text="미완"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:background="#f0791b"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_height="25dp"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:text="HCI"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#f0791b"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <TextView
+                            android:text="3"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#f0791b"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <CheckBox
+                            android:id="@+id/chk2016_8"
+                            android:gravity="center"
+                            android:text="미완"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:background="#f0791b"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_height="25dp"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:text="기술경영"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#f0791b"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <TextView
+                            android:text="3"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#f0791b"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <CheckBox
+                            android:id="@+id/chk2016_9"
+                            android:gravity="center"
+                            android:text="미완"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:background="#f0791b"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_height="25dp"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:text="                 "
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                            />
+                    </TableRow>
+
+                    <TableRow>
+                        <Button
+                            android:text="업데이트"
+                            android:id="@+id/button2016"
+                            android:layout_span="3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="#fcfcfc"
+                            android:backgroundTint="#3c3f41"
+                            android:textStyle="bold"/>
+                    </TableRow>
+                </TableLayout>
+
+                //2015
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/tableLayout2015"
+                    android:layout_margin="10dp"
+                    android:visibility="gone"
+                    android:stretchColumns="1,2">
+
+                    <TableRow>
+                        <TextView
+                            android:text="4학년 1학기 (15학번)        "
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                            />
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:text="과목"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#3c3f41"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"/>
+                        <TextView
+                            android:text="학점"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#3c3f41"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"
+                            />
+                        <TextView
+                            android:text="수강"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#3c3f41"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"
+                            />
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:text="데이터마이닝"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <TextView
+                            android:text="3"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <CheckBox
+                            android:id="@+id/chk2015_1"
+                            android:gravity="center"
+                            android:text="미완"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_height="25dp"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:text="멀티미디어"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <TextView
+                            android:text="3"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <CheckBox
+                            android:id="@+id/chk2015_2"
+                            android:gravity="center"
+                            android:text="미완"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_height="25dp"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:text="기술경영"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <TextView
+                            android:text="3"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <CheckBox
+                            android:id="@+id/chk2015_3"
+                            android:gravity="center"
+                            android:text="미완"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_height="25dp"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:text="졸업작품 3"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <TextView
+                            android:text="2"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <CheckBox
+                            android:id="@+id/chk2015_4"
+                            android:gravity="center"
+                            android:text="미완"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_height="25dp"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:text="현장실습"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <TextView
+                            android:text="1"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <CheckBox
+                            android:id="@+id/chk2015_5"
+                            android:gravity="center"
+                            android:text="미완"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_height="25dp"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:text="진로관련 전공과목"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <TextView
+                            android:text="3"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <CheckBox
+                            android:id="@+id/chk2015_6"
+                            android:gravity="center"
+                            android:text="미완"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_height="25dp"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:text="                 "
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                            />
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:text="4학년 2학기 (15학번)        "
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                            />
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:text="과목"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#3c3f41"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"/>
+                        <TextView
+                            android:text="학점"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#3c3f41"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"
+                            />
+                        <TextView
+                            android:text="수강"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#3c3f41"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"
+                            />
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:text="컴퓨터보안"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#f0791b"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <TextView
+                            android:text="3"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#f0791b"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <CheckBox
+                            android:id="@+id/chk2015_7"
+                            android:gravity="center"
+                            android:text="미완"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:background="#f0791b"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_height="25dp"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:text="HCI"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#f0791b"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <TextView
+                            android:text="3"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#f0791b"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <CheckBox
+                            android:id="@+id/chk2015_8"
+                            android:gravity="center"
+                            android:text="미완"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:background="#f0791b"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_height="25dp"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:text="기업가정신"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#f0791b"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <TextView
+                            android:text="3"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#f0791b"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <CheckBox
+                            android:id="@+id/chk2015_9"
+                            android:gravity="center"
+                            android:text="미완"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:background="#f0791b"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_height="25dp"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:text="                 "
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                            />
+                    </TableRow>
+
+                    <TableRow>
+                        <Button
+                            android:text="업데이트"
+                            android:id="@+id/button2015"
+                            android:layout_span="3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="#fcfcfc"
+                            android:backgroundTint="#3c3f41"
+                            android:textStyle="bold"/>
+                    </TableRow>
+                </TableLayout>
+
+                //2014
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/tableLayout2014"
+                    android:layout_margin="10dp"
+                    android:visibility="gone"
+                    android:stretchColumns="1,2">
+
+                    <TableRow>
+                        <TextView
+                            android:text="4학년 1학기 (14학번)        "
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                            />
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:text="과목"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#3c3f41"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"/>
+                        <TextView
+                            android:text="학점"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#3c3f41"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"
+                            />
+                        <TextView
+                            android:text="수강"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#3c3f41"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"
+                            />
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:text="데이터마이닝"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <TextView
+                            android:text="3"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <CheckBox
+                            android:id="@+id/chk2014_1"
+                            android:gravity="center"
+                            android:text="미완"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_height="25dp"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:text="멀티미디어"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <TextView
+                            android:text="3"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <CheckBox
+                            android:id="@+id/chk2014_2"
+                            android:gravity="center"
+                            android:text="미완"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_height="25dp"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:text="기술경영"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <TextView
+                            android:text="3"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <CheckBox
+                            android:id="@+id/chk2014_3"
+                            android:gravity="center"
+                            android:text="미완"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_height="25dp"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:text="졸업작품 3"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <TextView
+                            android:text="2"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <CheckBox
+                            android:id="@+id/chk2014_4"
+                            android:gravity="center"
+                            android:text="미완"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_height="25dp"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:text="현장실습"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <TextView
+                            android:text="1"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <CheckBox
+                            android:id="@+id/chk2014_5"
+                            android:gravity="center"
+                            android:text="미완"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_height="25dp"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:text="창의와 융합"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <TextView
+                            android:text="2"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <CheckBox
+                            android:id="@+id/chk2014_6"
+                            android:gravity="center"
+                            android:text="미완"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_height="25dp"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:text="                 "
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                            />
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:text="4학년 2학기 (14학번)        "
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                            />
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:text="과목"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#3c3f41"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"/>
+                        <TextView
+                            android:text="학점"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#3c3f41"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"
+                            />
+                        <TextView
+                            android:text="수강"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#3c3f41"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"
+                            />
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:text="컴퓨터보안"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#f0791b"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <TextView
+                            android:text="3"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#f0791b"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <CheckBox
+                            android:id="@+id/chk2014_7"
+                            android:gravity="center"
+                            android:text="미완"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:background="#f0791b"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_height="25dp"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:text="HCI"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#f0791b"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <TextView
+                            android:text="3"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#f0791b"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <CheckBox
+                            android:id="@+id/chk2014_8"
+                            android:gravity="center"
+                            android:text="미완"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:background="#f0791b"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_height="25dp"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:text="기업가정신"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#f0791b"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <TextView
+                            android:text="3"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#f0791b"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <CheckBox
+                            android:id="@+id/chk2014_9"
+                            android:gravity="center"
+                            android:text="미완"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:background="#f0791b"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_height="25dp"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:text="                 "
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                            />
+                    </TableRow>
+
+                    <TableRow>
+                        <Button
+                            android:text="업데이트"
+                            android:id="@+id/button2014"
+                            android:layout_span="3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="#fcfcfc"
+                            android:backgroundTint="#3c3f41"
+                            android:textStyle="bold" />
+                    </TableRow>
+                </TableLayout>
+
+                //2013
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/tableLayout2013"
+                    android:layout_margin="10dp"
+                    android:visibility="gone"
+                    android:stretchColumns="1,2">
+
+                    <TableRow>
+                        <TextView
+                            android:text="4학년 1학기 (13학번)        "
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                            />
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:text="과목"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#3c3f41"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"/>
+                        <TextView
+                            android:text="학점"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#3c3f41"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"
+                            />
+                        <TextView
+                            android:text="수강"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#3c3f41"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"
+                            />
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:text="데이터마이닝"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <TextView
+                            android:text="3"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <CheckBox
+                            android:id="@+id/chk2013_1"
+                            android:gravity="center"
+                            android:text="미완"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_height="25dp"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:text="멀티미디어"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <TextView
+                            android:text="3"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <CheckBox
+                            android:id="@+id/chk2013_2"
+                            android:gravity="center"
+                            android:text="미완"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_height="25dp"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:text="기술경영"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <TextView
+                            android:text="3"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <CheckBox
+                            android:id="@+id/chk2013_3"
+                            android:gravity="center"
+                            android:text="미완"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_height="25dp"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:text="졸업작품 3"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <TextView
+                            android:text="1"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <CheckBox
+                            android:id="@+id/chk2013_4"
+                            android:gravity="center"
+                            android:text="미완"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_height="25dp"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:text="자율선택 2"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <TextView
+                            android:text="3"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <CheckBox
+                            android:id="@+id/chk2013_5"
+                            android:gravity="center"
+                            android:text="미완"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:background="#85b851"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_height="25dp"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:text="                 "
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                            />
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:text="4학년 2학기 (13학번)        "
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                            />
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:text="과목"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#3c3f41"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"/>
+                        <TextView
+                            android:text="학점"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#3c3f41"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"
+                            />
+                        <TextView
+                            android:text="수강"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#3c3f41"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"
+                            />
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:text="컴퓨터보안"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#f0791b"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <TextView
+                            android:text="3"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#f0791b"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <CheckBox
+                            android:id="@+id/chk2013_6"
+                            android:gravity="center"
+                            android:text="미완"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:background="#f0791b"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_height="25dp"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:text="HCI"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#f0791b"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <TextView
+                            android:text="3"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#f0791b"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <CheckBox
+                            android:id="@+id/chk2013_7"
+                            android:gravity="center"
+                            android:text="미완"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:background="#f0791b"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_height="25dp"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:text="기업가정신"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#f0791b"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <TextView
+                            android:text="3"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:gravity="center"
+                            android:background="#f0791b"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp" />
+                        <CheckBox
+                            android:id="@+id/chk2013_8"
+                            android:gravity="center"
+                            android:text="미완"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:background="#f0791b"
+                            android:textColor="#ffffffff"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_height="25dp"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:text="                 "
+                            android:textStyle="bold"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                            />
+                    </TableRow>
+
+                    <TableRow>
+                        <Button
+                            android:text="업데이트"
+                            android:id="@+id/button2013"
+                            android:layout_span="3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="#fcfcfc"
+                            android:backgroundTint="#3c3f41"
+                            android:textStyle="bold"/>
+                    </TableRow>
+                </TableLayout>
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+

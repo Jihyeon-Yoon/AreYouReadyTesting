@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:background="@drawable/bg_line"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:src="@drawable/req_credit"
+        android:scaleType="fitXY"
+        android:layout_weight="9"
+        />
+
+    <!--<WebView
+        android:id="@+id/wv_liberal_arts"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3.5"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        />-->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#b1aeae"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="영역별 학과 지정 교양 과목 (17학번 이후)"
+        android:textStyle="bold"
+        android:textColor="#fdfbfb"
+        android:layout_weight="1"
+        android:backgroundTint="#85b851"
+        />
+</LinearLayout>

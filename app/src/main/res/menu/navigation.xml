@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_requirement"
+        android:icon="@drawable/mortarboard"
+        android:title="@string/title_requirement" />
+
+    <item
+        android:id="@+id/navigation_volunteer"
+        android:icon="@drawable/volunteer"
+        android:title="@string/title_volunteer" />
+
+    <item
+        android:id="@+id/navigation_book"
+        android:icon="@drawable/open_book"
+        android:title="@string/title_book" />
+
+    <item
+        android:id="@+id/navigation_credit"
+        android:icon="@drawable/graduate_certificate"
+        android:title="@string/title_credit" />
+
+    <item
+        android:id="@+id/navigation_check"
+        android:icon="@drawable/checked"
+        android:title="@string/title_check" />
+
+</menu>

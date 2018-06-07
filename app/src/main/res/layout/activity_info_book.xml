@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="30dp"
+            android:paddingRight="15dp"
+            android:paddingLeft="15dp"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <ImageView
+                    android:id="@+id/iv_book"
+                    android:layout_width="100dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/k4"
+                    android:scaleType="fitXY"
+                    />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    >
+
+                    <TextView
+                        android:id="@+id/tv_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="아름다운 바람개비"
+                        android:textStyle="bold"
+                        android:textSize="25dp"
+                        android:gravity="left"
+                        android:layout_marginLeft="10dp"
+                        />
+                    <TextView
+                        android:layout_below="@+id/tv_title"
+                        android:id="@+id/tv_author"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="이길여 지음"
+                        android:textSize="19dp"
+                        android:gravity="right"
+                        android:layout_margin="4dp"
+                        />
+
+                    <LinearLayout
+                        android:layout_alignParentBottom="true"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="2"
+                        android:gravity="bottom"
+                        >
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="평점"
+                            android:textSize="19dp"
+                            android:textStyle="bold"
+                            android:layout_gravity="center_vertical"
+                            android:gravity="right"
+                            android:paddingRight="5dp"
+                            />
+                        <ImageView
+                            android:id="@+id/iv_rating"
+                            android:layout_width="0dp"
+                            android:layout_height="20dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/rating7"
+                            android:layout_gravity="center"
+                            />
+                    </LinearLayout>
+                </RelativeLayout>
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#a0a3a2"
+                android:layout_marginTop="15dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="소개"
+                android:textSize="21dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                />
+
+            <TextView
+                android:id="@+id/tv_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:text="디스크립션 설명 디스크립션 설명 최대 6줄 제한!"
+                android:lines="6"
+                android:ellipsize="end"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#a0a3a2"
+                android:layout_marginTop="5dp"
+                />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="중앙도서관 내 위치"
+                android:textSize="21dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                />
+
+            <TextView
+                android:id="@+id/tv_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="19dp"
+                android:text="중앙도서관 /동양서실(2층)"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:id="@+id/tv_bookmark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="청구기호: 811.1 ㄱ497ㅇ"
+                android:textSize="19dp"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#a0a3a2"
+                android:layout_marginTop="5dp"
+                />
+
+            <TextView
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="출처 : YES24, 교보문고, 네이버 책"
+                android:layout_marginTop="5dp"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">아유레디</string>
+    <string name="title_requirement">Requirement</string>
+    <string name="title_volunteer">Volunteer</string>
+    <string name="title_book">Book</string>
+    <string name="title_credit">Credit</string>
+    <string name="title_check">Check</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
