@@ -13,9 +13,9 @@ public class CheckTest {
     @Test
     public void getTotalCredit() throws Exception {
         Check testCheck = new Check();
-        testCheck.enterYearFix = "2016";
+        testCheck.enterYearFix = "2013";
         testCheck.getTotalCredit();
-        assertEquals(121, testCheck.totalCredit );
+        assertEquals(120, testCheck.totalCredit );
     }
 
     @Test
