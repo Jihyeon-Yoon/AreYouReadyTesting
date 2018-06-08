@@ -203,7 +203,7 @@ public class Check extends Fragment {
         return rootView;
     }
 
-    private void getTotalCredit() {
+    public void getTotalCredit() {
         switch(Integer.parseInt(enterYearFix)) {
             case 2017:
             case 2016:
@@ -217,10 +217,10 @@ public class Check extends Fragment {
             default:
                 break;
         }
-        storeTotalCredit(totalCredit);
+        // storeTotalCredit(totalCredit);
     }
 
-    private void storeTotalCredit(int total) {
+    public void storeTotalCredit(int total) {
         context = getActivity();
         sh_Pref = context.getSharedPreferences("STORE DATA", MODE_PRIVATE);
         toEdit = sh_Pref.edit();
@@ -230,7 +230,7 @@ public class Check extends Fragment {
         toEdit.commit();
     }
 
-    private void getCurrentCredit() {
+    public void getCurrentCredit() {
         switch(Integer.parseInt(enterYearFix)) {
             case 2017:
                 get2017SharedPreference();
@@ -253,7 +253,7 @@ public class Check extends Fragment {
         storeCurrentCredit(currentCredit);
     }
 
-    private void storeCurrentCredit(int sum) {
+    public void storeCurrentCredit(int sum) {
         context = getActivity();
         sh_Pref = context.getSharedPreferences("STORE DATA", MODE_PRIVATE);
         toEdit = sh_Pref.edit();
@@ -263,7 +263,7 @@ public class Check extends Fragment {
         toEdit.commit();
     }
 
-    private void showStoredData() {
+    public void showStoredData() {
         String temp;
         //percent
         temp=String.format("%.1f", bookNum/40.0*100);
@@ -331,7 +331,7 @@ public class Check extends Fragment {
         }
     }
 
-    private void get2017SharedPreference() {
+    public void get2017SharedPreference() {
         int sum=0;
         context = getActivity();
         sh_Pref = context.getSharedPreferences("STORE DATA", MODE_PRIVATE);
@@ -356,7 +356,7 @@ public class Check extends Fragment {
         storeCurrentCredit(sum);
     }
 
-    private void get2016SharedPreference() {
+    public void get2016SharedPreference() {
         int sum=0;
         context = getActivity();
         sh_Pref = context.getSharedPreferences("STORE DATA", MODE_PRIVATE);
@@ -380,7 +380,7 @@ public class Check extends Fragment {
         storeCurrentCredit(sum);
     }
 
-    private void get2015SharedPreference() {
+    public void get2015SharedPreference() {
         int sum=0;
         context = getActivity();
         sh_Pref = context.getSharedPreferences("STORE DATA", MODE_PRIVATE);
@@ -404,7 +404,7 @@ public class Check extends Fragment {
         storeCurrentCredit(sum);
     }
 
-    private void get2014SharedPreference() {
+    public void get2014SharedPreference() {
         int sum=0;
         context = getActivity();
         sh_Pref = context.getSharedPreferences("STORE DATA", MODE_PRIVATE);
@@ -428,7 +428,7 @@ public class Check extends Fragment {
         storeCurrentCredit(sum);
     }
 
-    private void get2013SharedPreference() {
+    public void get2013SharedPreference() {
         int sum=0;
         context = getActivity();
         sh_Pref = context.getSharedPreferences("STORE DATA", MODE_PRIVATE);

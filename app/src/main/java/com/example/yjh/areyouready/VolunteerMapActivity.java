@@ -63,7 +63,7 @@ public class VolunteerMapActivity extends AppCompatActivity {
         });
     }
 
-    private void showCurrentLocation(Double latitude, Double longitude) {
+    public void showCurrentLocation(Double latitude, Double longitude) {
         // 전달 받은 위도, 경도값을 이용해 LtLng 객체 생성
         LatLng curPoint = new LatLng(latitude, longitude);
 
@@ -74,7 +74,7 @@ public class VolunteerMapActivity extends AppCompatActivity {
         showLocationMarker(latitude, longitude);
     }
 
-    private void showLocationMarker(Double latitude, Double longitude) {
+    public void showLocationMarker(Double latitude, Double longitude) {
         if(locationMarker == null) {
             locationMarker = new MarkerOptions();
             locationMarker.position(new LatLng(latitude, longitude));

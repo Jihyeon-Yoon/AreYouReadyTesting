@@ -47,7 +47,7 @@ public class Requirement extends Fragment {
         return rootView;
     }
 
-    private class MyPagerAdapter extends FragmentPagerAdapter {
+    public class MyPagerAdapter extends FragmentPagerAdapter {
         private Fragment[] arrFragments;
 
         public MyPagerAdapter(FragmentManager fm, Fragment[] arrFragments) {
