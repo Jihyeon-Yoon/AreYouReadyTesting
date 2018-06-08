@@ -16,11 +16,6 @@ public class CheckTest {
         testCheck.enterYearFix = "2016";
         testCheck.getTotalCredit();
         assertEquals(121, testCheck.totalCredit );
-
-        Check testCheck2 = new Check();
-        testCheck2.enterYearFix = "2013";
-        testCheck2.getTotalCredit();
-        assertEquals(120, testCheck2.totalCredit);
     }
 
     @Test
