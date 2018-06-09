@@ -45,7 +45,7 @@ public class VolunteerGachonFragment extends Fragment {
         adapter = new ListViewAdapterForVolunteer(itemList);
 
         // 리스트뷰 참조 및 adpater 달기
-        listView = (ListView) rootView.findViewById(R.id.listview1);
+        listView = rootView.findViewById(R.id.listview1);
         listView.setAdapter(adapter);
 
         try {

@@ -44,7 +44,7 @@ public class BookArtFragment extends Fragment {
         adapter = new ListViewAdapterForBook(itemList);
 
         // 리스트뷰 참조 및 adpater 달기
-        listView = (ListView) rootView.findViewById(R.id.listview1);
+        listView = rootView.findViewById(R.id.listview1);
         listView.setAdapter(adapter);
 
         try {

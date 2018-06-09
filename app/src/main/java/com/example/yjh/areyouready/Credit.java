@@ -50,7 +50,7 @@ public class Credit extends Fragment {
         enterYear_textView = rootView.findViewById(R.id.enterYear_textView);
 
         //spinner
-        spinner = (Spinner)rootView.findViewById(R.id.enterYear_spinner);
+        spinner = rootView.findViewById(R.id.enterYear_spinner);
         adapterSpinner = new ArrayAdapter<> (
                 getActivity(), android.R.layout.simple_spinner_item, items);
         adapterSpinner.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
