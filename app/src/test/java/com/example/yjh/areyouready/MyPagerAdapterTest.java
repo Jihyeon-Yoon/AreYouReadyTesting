@@ -1,8 +1,5 @@
 package com.example.yjh.areyouready;
 
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-
 import org.junit.Test;
 
 import static org.junit.Assert.*;
