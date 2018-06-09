@@ -37,7 +37,7 @@ public class ListViewAdapterForBook extends BaseAdapter {
     // position에 위치한 데이터를 화면에 출력하는 데 사용될 view를 리턴. : 필수 구현
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        final int pos = position;
+        //final int pos = position;
         final Context context = parent.getContext();
 
         // listview_item layout을 inflate하여 convertView 참조 획득
