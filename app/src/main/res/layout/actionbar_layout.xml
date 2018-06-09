@@ -15,7 +15,6 @@
             android:layout_gravity="center"
             android:text="Are You"
             android:textColor="#f2f7ec"
-            android:id="@+id/mytext"
             android:textStyle="bold"
             android:textSize="18sp" />
 
@@ -25,7 +24,6 @@
             android:layout_gravity="center"
             android:text=" Ready?!"
             android:textColor="#8fc552"
-            android:id="@+id/mytext2"
             android:textStyle="bold"
             android:textSize="18sp" />
     </LinearLayout>

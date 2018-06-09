@@ -600,13 +600,11 @@
                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
 
                 <TextView
-                    android:id="@+id/creditPlus"
                     android:layout_width="25dp"
                     android:layout_height="25dp"
                     android:layout_marginLeft="10dp"/>
 
                 <TextView
-                    android:id="@+id/creditMinus"
                     android:layout_width="25dp"
                     android:layout_height="25dp"
                     android:layout_marginLeft="10dp"/>
